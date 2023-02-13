@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+
+}
+form{
+    margin: 0 auto;
+    max-width: 600px;
+    box-shadow: 0 0 5px #808080;
+    padding: 10px;
+    background-color: rgb(128 128 128 0.05);
+    display: flex;
+    flex-direction: row;
+
+}
+.msg,contact{
+    flex:1;
+    padding: 5px;
+
+}
+input{
+    width: 100%;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+
+}
+button{
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px grey;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    border:none;
+}
+textarea{
+    width: 100%;
+ 
+
+}
+@media  screen and (max-width:550px){
+    form{
+        flex-direction: column;
+    }
+}
